@@ -1,0 +1,12 @@
+def year_change(year,switch):
+    mingo=year-1911
+    rewa=year-2019
+    #return mingo,rewa
+    if switch==0:
+        mingo=year-1911
+    if switch==1:
+        rewa=year-2019
+
+yearTW,yearJP=year_change(2023,1)
+print(yearTW)
+print(yearJP)
